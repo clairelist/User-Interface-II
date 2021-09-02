@@ -1,1 +1,87 @@
 /* Add CSS styling here */
+
+*{
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#FFFAFA;
+}
+
+a{
+    color:red;
+}
+
+nav{
+display:flex;
+  justify-content:space-between;
+  
+}
+
+
+
+.bigimage{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+
+.image-button{
+    background-image: url("https://picsum.photos/640/400");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    font-size:large;
+    width:640px;
+    height:400px;
+
+}
+
+.bigmomma{
+    display:flex;
+justify-content:space-evenly;
+width:20%;
+flex-direction:row;
+padding:50px;
+
+
+}
+
+.topthree{
+    display:flex;
+  align-items:center;
+    flex-direction:row;
+    
+}
+
+
+.botthree{
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-items:center;
+width:20%;
+justify-content:space-evenly;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    padding:24px;
+    background-color:lightpink;
+    
+}
+
+footer button{
+    width:300px;
+    height:35px;
+    
+}
+
